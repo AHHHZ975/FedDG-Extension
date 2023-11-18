@@ -23,6 +23,10 @@ After local training, the server performs a momentum update to compute the gener
 # Conclusion
 FedDG [1] is a way to adjust the aggregation weights to pursue better out-of-domain generalization in the centralized federated learning setting. Specifically, it proposes a new global optimization objective that encourages flatness and fairness by reducing the variance of generalization gaps. So, in this project, we plan to re-implement it and evaluate the method on an image classification task to understand the elements of FedDG. Moreover, we aim to combine the FedDG, as an adjustment technique on the global objective of the federated learning problem, with some state-of-the-art local adjustment techniques, to see how the results differ from the FedDG. We hypothesize that this approach could potentially be a way to incorporate both personalization and generalization abilities and give better results in terms of generalization.
 
+
+# Datasets
+### 1. PACS: [https://sketchx.eecs.qmul.ac.uk](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)
+
 # References
 [1] Ruipeng Zhang, Qinwei Xu, Jiangchao Yao, Ya Zhang, Qi Tian, and Yanfeng Wang. Federated domain generalization with generalization adjustment. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 3954–3963, 2023.
 
