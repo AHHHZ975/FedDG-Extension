@@ -1,5 +1,8 @@
 import os
 import argparse
+import sys
+
+sys.path.append('/home/am_zam/feddg/FedDG-Extension')
 from utils.log_utils import *
 from torch.utils.tensorboard.writer import SummaryWriter
 from data.pacs_dataset import PACS_FedDG
