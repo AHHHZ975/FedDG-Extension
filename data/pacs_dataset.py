@@ -41,19 +41,19 @@ class PACS_SingleDomain():
             self.domain_label = list(pacs_name_dict.keys()).index(domain_name)
         else:
             raise ValueError('domain_name should be in p a c s')
-        
+
         self.root_path = os.path.join(root_path, 'raw_images')
         self.split = split
-        self.split_file = os.path.join(root_path, 'raw_images', 'Train val splits and h5py files pre-read', f'{self.domain_name}_{split_dict[self.split]}_kfold' + '.txt')
-        
+        self.split_file = os.path.join(root_path, 'split_files', f'{self.domain_name}_{split_dict[self.split]}_kfold' + '.txt')
+
         if train_transform is not None:
             self.transform = train_transform
         else:
             self.transform = transform_test
-                
+
         imgs, labels = PACS_SingleDomain.read_txt(self.split_file, self.root_path)
         self.dataset = MetaDataset(imgs, labels, self.domain_label, self.transform)
-        
+
     @staticmethod
     def read_txt(txt_path, root_path):
         imgs = []
@@ -66,25 +66,25 @@ class PACS_SingleDomain():
             imgs.append(os.path.join(root_path, line_txt[0]))
             labels.append(int(line_txt[1]) - 1)
         return imgs, labels
-    
+
 class PACS_FedDG():
     def __init__(self, test_domain='p', batch_size=16):
         self.batch_size = batch_size
         self.domain_list = list(pacs_name_dict.keys())
         self.test_domain = test_domain
         self.train_domain_list = self.domain_list.copy()
-        self.train_domain_list.remove(self.test_domain)  
-        
+        self.train_domain_list.remove(self.test_domain)
+
         self.site_dataset_dict = {}
         self.site_dataloader_dict = {}
         for domain_name in self.domain_list:
             self.site_dataloader_dict[domain_name], self.site_dataset_dict[domain_name] = PACS_FedDG.SingleSite(domain_name, self.batch_size)
-            
-        
+
+
         self.test_dataset = self.site_dataset_dict[self.test_domain]['test']
         self.test_dataloader = self.site_dataloader_dict[self.test_domain]['test']
-        
-          
+
+
     @staticmethod
     def SingleSite(domain_name, batch_size=16):
         dataset_dict = {
@@ -94,11 +94,6 @@ class PACS_FedDG():
         }
         dataloader_dict = GetDataLoaderDict(dataset_dict, batch_size)
         return dataloader_dict, dataset_dict
-        
+
     def GetData(self):
         return self.site_dataloader_dict, self.site_dataset_dict
-    
-
-
-
-
