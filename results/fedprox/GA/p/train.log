@@ -1,0 +1,339 @@
+2023-11-18 19:44 before_fed Round:   0 | Epochs:   0 | Domain: a | loss: 0.2904 | Acc: 90.38%
+2023-11-18 19:44 before_fed Round:   0 | Epochs:   0 | Domain: c | loss: 0.2657 | Acc: 90.30%
+2023-11-18 19:45 before_fed Round:   0 | Epochs:   0 | Domain: s | loss: 0.2292 | Acc: 92.46%
+2023-11-18 19:45 after_fed Round:   0 | Epochs:   0 | Domain: a | loss: 0.7223 | Acc: 76.44%
+2023-11-18 19:45 after_fed Round:   0 | Epochs:   0 | Domain: c | loss: 0.6795 | Acc: 74.26%
+2023-11-18 19:45 after_fed Round:   0 | Epochs:   0 | Domain: s | loss: 0.6630 | Acc: 79.90%
+2023-11-18 19:45 Model saved! Best Val Acc: 76.87%
+2023-11-18 19:45 test_domain Round:   0 | Epochs:   0 | Domain: p | loss: 0.4144 | Acc: 93.35%
+2023-11-18 19:45 Round 0 FedAvg weight: {'a': 0.332477143589397, 'c': 0.34002261451979743, 's': 0.32750024189080557}
+2023-11-18 19:45 before_fed Round:   1 | Epochs:   5 | Domain: a | loss: 0.2712 | Acc: 90.38%
+2023-11-18 19:45 before_fed Round:   1 | Epochs:   5 | Domain: c | loss: 0.1908 | Acc: 93.67%
+2023-11-18 19:46 before_fed Round:   1 | Epochs:   5 | Domain: s | loss: 0.1999 | Acc: 92.46%
+2023-11-18 19:46 after_fed Round:   1 | Epochs:   5 | Domain: a | loss: 0.5024 | Acc: 82.69%
+2023-11-18 19:46 after_fed Round:   1 | Epochs:   5 | Domain: c | loss: 0.3803 | Acc: 87.34%
+2023-11-18 19:46 after_fed Round:   1 | Epochs:   5 | Domain: s | loss: 0.3241 | Acc: 89.20%
+2023-11-18 19:46 Model saved! Best Val Acc: 86.40%
+2023-11-18 19:46 test_domain Round:   1 | Epochs:   5 | Domain: p | loss: 0.2560 | Acc: 91.92%
+2023-11-18 19:46 Round 1 FedAvg weight: {'a': 0.34713373624787214, 'c': 0.3434211130993246, 's': 0.3094451506528032}
+2023-11-18 19:46 before_fed Round:   2 | Epochs:  10 | Domain: a | loss: 0.2198 | Acc: 92.31%
+2023-11-18 19:46 before_fed Round:   2 | Epochs:  10 | Domain: c | loss: 0.1804 | Acc: 93.67%
+2023-11-18 19:46 before_fed Round:   2 | Epochs:  10 | Domain: s | loss: 0.1849 | Acc: 93.72%
+2023-11-18 19:46 after_fed Round:   2 | Epochs:  10 | Domain: a | loss: 0.3897 | Acc: 86.54%
+2023-11-18 19:46 after_fed Round:   2 | Epochs:  10 | Domain: c | loss: 0.2936 | Acc: 91.56%
+2023-11-18 19:46 after_fed Round:   2 | Epochs:  10 | Domain: s | loss: 0.3079 | Acc: 88.69%
+2023-11-18 19:46 Model saved! Best Val Acc: 88.93%
+2023-11-18 19:46 test_domain Round:   2 | Epochs:  10 | Domain: p | loss: 0.1692 | Acc: 94.31%
+2023-11-18 19:46 Round 2 FedAvg weight: {'a': 0.3598209028491926, 'c': 0.3205823458670768, 's': 0.31959675128373066}
+2023-11-18 19:47 before_fed Round:   3 | Epochs:  15 | Domain: a | loss: 0.2248 | Acc: 92.79%
+2023-11-18 19:47 before_fed Round:   3 | Epochs:  15 | Domain: c | loss: 0.1743 | Acc: 94.09%
+2023-11-18 19:47 before_fed Round:   3 | Epochs:  15 | Domain: s | loss: 0.1442 | Acc: 93.97%
+2023-11-18 19:47 after_fed Round:   3 | Epochs:  15 | Domain: a | loss: 0.3423 | Acc: 87.50%
+2023-11-18 19:47 after_fed Round:   3 | Epochs:  15 | Domain: c | loss: 0.2652 | Acc: 92.41%
+2023-11-18 19:47 after_fed Round:   3 | Epochs:  15 | Domain: s | loss: 0.2644 | Acc: 90.95%
+2023-11-18 19:47 Model saved! Best Val Acc: 90.18%
+2023-11-18 19:47 test_domain Round:   3 | Epochs:  15 | Domain: p | loss: 0.1654 | Acc: 94.25%
+2023-11-18 19:47 Round 3 FedAvg weight: {'a': 0.37793324110600296, 'c': 0.3043750831353076, 's': 0.31769167575868945}
+2023-11-18 19:47 before_fed Round:   4 | Epochs:  20 | Domain: a | loss: 0.2575 | Acc: 89.90%
+2023-11-18 19:48 before_fed Round:   4 | Epochs:  20 | Domain: c | loss: 0.2156 | Acc: 93.67%
+2023-11-18 19:48 before_fed Round:   4 | Epochs:  20 | Domain: s | loss: 0.1332 | Acc: 94.47%
+2023-11-18 19:48 after_fed Round:   4 | Epochs:  20 | Domain: a | loss: 0.3327 | Acc: 87.50%
+2023-11-18 19:48 after_fed Round:   4 | Epochs:  20 | Domain: c | loss: 0.2596 | Acc: 90.72%
+2023-11-18 19:48 after_fed Round:   4 | Epochs:  20 | Domain: s | loss: 0.2613 | Acc: 90.45%
+2023-11-18 19:48 test_domain Round:   4 | Epochs:  20 | Domain: p | loss: 0.1702 | Acc: 94.13%
+2023-11-18 19:48 Round 4 FedAvg weight: {'a': 0.3626420979816876, 'c': 0.3057067347226989, 's': 0.3316511672956134}
+2023-11-18 19:48 before_fed Round:   5 | Epochs:  25 | Domain: a | loss: 0.2312 | Acc: 94.71%
+2023-11-18 19:48 before_fed Round:   5 | Epochs:  25 | Domain: c | loss: 0.1671 | Acc: 94.94%
+2023-11-18 19:49 before_fed Round:   5 | Epochs:  25 | Domain: s | loss: 0.2211 | Acc: 92.71%
+2023-11-18 19:49 after_fed Round:   5 | Epochs:  25 | Domain: a | loss: 0.3238 | Acc: 87.98%
+2023-11-18 19:49 after_fed Round:   5 | Epochs:  25 | Domain: c | loss: 0.2868 | Acc: 91.14%
+2023-11-18 19:49 after_fed Round:   5 | Epochs:  25 | Domain: s | loss: 0.2306 | Acc: 91.71%
+2023-11-18 19:49 Model saved! Best Val Acc: 90.18%
+2023-11-18 19:49 test_domain Round:   5 | Epochs:  25 | Domain: p | loss: 0.1915 | Acc: 93.71%
+2023-11-18 19:49 Round 5 FedAvg weight: {'a': 0.3832408046388435, 'c': 0.3079027272185818, 's': 0.30885646814257467}
+2023-11-18 19:49 before_fed Round:   6 | Epochs:  30 | Domain: a | loss: 0.2805 | Acc: 89.42%
+2023-11-18 19:49 before_fed Round:   6 | Epochs:  30 | Domain: c | loss: 0.1707 | Acc: 94.94%
+2023-11-18 19:50 before_fed Round:   6 | Epochs:  30 | Domain: s | loss: 0.1448 | Acc: 95.48%
+2023-11-18 19:50 after_fed Round:   6 | Epochs:  30 | Domain: a | loss: 0.3225 | Acc: 89.90%
+2023-11-18 19:50 after_fed Round:   6 | Epochs:  30 | Domain: c | loss: 0.2590 | Acc: 91.98%
+2023-11-18 19:50 after_fed Round:   6 | Epochs:  30 | Domain: s | loss: 0.2373 | Acc: 92.21%
+2023-11-18 19:50 Model saved! Best Val Acc: 91.26%
+2023-11-18 19:50 test_domain Round:   6 | Epochs:  30 | Domain: p | loss: 0.1807 | Acc: 93.65%
+2023-11-18 19:50 Round 6 FedAvg weight: {'a': 0.3398243554288976, 'c': 0.3271222547024455, 's': 0.3330533898686568}
+2023-11-18 19:50 before_fed Round:   7 | Epochs:  35 | Domain: a | loss: 0.2491 | Acc: 92.31%
+2023-11-18 19:50 before_fed Round:   7 | Epochs:  35 | Domain: c | loss: 0.2113 | Acc: 93.25%
+2023-11-18 19:50 before_fed Round:   7 | Epochs:  35 | Domain: s | loss: 0.1281 | Acc: 95.48%
+2023-11-18 19:51 after_fed Round:   7 | Epochs:  35 | Domain: a | loss: 0.3351 | Acc: 87.98%
+2023-11-18 19:51 after_fed Round:   7 | Epochs:  35 | Domain: c | loss: 0.3052 | Acc: 90.30%
+2023-11-18 19:51 after_fed Round:   7 | Epochs:  35 | Domain: s | loss: 0.2112 | Acc: 91.21%
+2023-11-18 19:51 test_domain Round:   7 | Epochs:  35 | Domain: p | loss: 0.2050 | Acc: 93.35%
+2023-11-18 19:51 Round 7 FedAvg weight: {'a': 0.3443894855067718, 'c': 0.31773433138803225, 's': 0.3378761831051959}
+2023-11-18 19:51 before_fed Round:   8 | Epochs:  40 | Domain: a | loss: 0.2239 | Acc: 92.79%
+2023-11-18 19:51 before_fed Round:   8 | Epochs:  40 | Domain: c | loss: 0.1453 | Acc: 95.78%
+2023-11-18 19:51 before_fed Round:   8 | Epochs:  40 | Domain: s | loss: 0.1429 | Acc: 94.47%
+2023-11-18 19:51 after_fed Round:   8 | Epochs:  40 | Domain: a | loss: 0.3334 | Acc: 87.50%
+2023-11-18 19:51 after_fed Round:   8 | Epochs:  40 | Domain: c | loss: 0.2578 | Acc: 91.56%
+2023-11-18 19:51 after_fed Round:   8 | Epochs:  40 | Domain: s | loss: 0.1917 | Acc: 92.71%
+2023-11-18 19:51 test_domain Round:   8 | Epochs:  40 | Domain: p | loss: 0.2032 | Acc: 93.65%
+2023-11-18 19:51 Round 8 FedAvg weight: {'a': 0.3575000231063451, 'c': 0.3236885301972682, 's': 0.3188114466963866}
+2023-11-18 19:52 before_fed Round:   9 | Epochs:  45 | Domain: a | loss: 0.2140 | Acc: 95.19%
+2023-11-18 19:52 before_fed Round:   9 | Epochs:  45 | Domain: c | loss: 0.2010 | Acc: 93.25%
+2023-11-18 19:52 before_fed Round:   9 | Epochs:  45 | Domain: s | loss: 0.1966 | Acc: 92.96%
+2023-11-18 19:52 after_fed Round:   9 | Epochs:  45 | Domain: a | loss: 0.3305 | Acc: 89.42%
+2023-11-18 19:52 after_fed Round:   9 | Epochs:  45 | Domain: c | loss: 0.2544 | Acc: 91.56%
+2023-11-18 19:52 after_fed Round:   9 | Epochs:  45 | Domain: s | loss: 0.2244 | Acc: 92.21%
+2023-11-18 19:52 test_domain Round:   9 | Epochs:  45 | Domain: p | loss: 0.1948 | Acc: 93.95%
+2023-11-18 19:52 Round 9 FedAvg weight: {'a': 0.3818494747501214, 'c': 0.3153543302103772, 's': 0.30279619503950145}
+2023-11-18 19:52 before_fed Round:  10 | Epochs:  50 | Domain: a | loss: 0.2180 | Acc: 92.79%
+2023-11-18 19:53 before_fed Round:  10 | Epochs:  50 | Domain: c | loss: 0.1904 | Acc: 95.36%
+2023-11-18 19:53 before_fed Round:  10 | Epochs:  50 | Domain: s | loss: 0.1570 | Acc: 95.48%
+2023-11-18 19:53 after_fed Round:  10 | Epochs:  50 | Domain: a | loss: 0.2987 | Acc: 92.31%
+2023-11-18 19:53 after_fed Round:  10 | Epochs:  50 | Domain: c | loss: 0.2937 | Acc: 90.72%
+2023-11-18 19:53 after_fed Round:  10 | Epochs:  50 | Domain: s | loss: 0.2377 | Acc: 92.21%
+2023-11-18 19:53 Model saved! Best Val Acc: 91.78%
+2023-11-18 19:53 test_domain Round:  10 | Epochs:  50 | Domain: p | loss: 0.1895 | Acc: 94.25%
+2023-11-18 19:53 Round 10 FedAvg weight: {'a': 0.354132841619736, 'c': 0.335676003831321, 's': 0.31019115454894297}
+2023-11-18 19:53 before_fed Round:  11 | Epochs:  55 | Domain: a | loss: 0.2464 | Acc: 93.27%
+2023-11-18 19:53 before_fed Round:  11 | Epochs:  55 | Domain: c | loss: 0.2251 | Acc: 94.94%
+2023-11-18 19:54 before_fed Round:  11 | Epochs:  55 | Domain: s | loss: 0.1417 | Acc: 94.72%
+2023-11-18 19:54 after_fed Round:  11 | Epochs:  55 | Domain: a | loss: 0.3498 | Acc: 88.94%
+2023-11-18 19:54 after_fed Round:  11 | Epochs:  55 | Domain: c | loss: 0.2505 | Acc: 93.67%
+2023-11-18 19:54 after_fed Round:  11 | Epochs:  55 | Domain: s | loss: 0.2407 | Acc: 92.21%
+2023-11-18 19:54 test_domain Round:  11 | Epochs:  55 | Domain: p | loss: 0.1855 | Acc: 94.55%
+2023-11-18 19:54 Round 11 FedAvg weight: {'a': 0.3695228359115751, 'c': 0.32030325570422186, 's': 0.3101739083842031}
+2023-11-18 19:54 before_fed Round:  12 | Epochs:  60 | Domain: a | loss: 0.2680 | Acc: 93.27%
+2023-11-18 19:54 before_fed Round:  12 | Epochs:  60 | Domain: c | loss: 0.1867 | Acc: 94.94%
+2023-11-18 19:55 before_fed Round:  12 | Epochs:  60 | Domain: s | loss: 0.1844 | Acc: 93.47%
+2023-11-18 19:55 after_fed Round:  12 | Epochs:  60 | Domain: a | loss: 0.3041 | Acc: 90.38%
+2023-11-18 19:55 after_fed Round:  12 | Epochs:  60 | Domain: c | loss: 0.2773 | Acc: 91.56%
+2023-11-18 19:55 after_fed Round:  12 | Epochs:  60 | Domain: s | loss: 0.2323 | Acc: 91.96%
+2023-11-18 19:55 test_domain Round:  12 | Epochs:  60 | Domain: p | loss: 0.1761 | Acc: 94.49%
+2023-11-18 19:55 Round 12 FedAvg weight: {'a': 0.3697068426270014, 'c': 0.33173938211519427, 's': 0.29855377525780435}
+2023-11-18 19:55 before_fed Round:  13 | Epochs:  65 | Domain: a | loss: 0.1973 | Acc: 94.23%
+2023-11-18 19:55 before_fed Round:  13 | Epochs:  65 | Domain: c | loss: 0.1772 | Acc: 95.78%
+2023-11-18 19:55 before_fed Round:  13 | Epochs:  65 | Domain: s | loss: 0.1630 | Acc: 94.22%
+2023-11-18 19:55 after_fed Round:  13 | Epochs:  65 | Domain: a | loss: 0.2677 | Acc: 91.83%
+2023-11-18 19:55 after_fed Round:  13 | Epochs:  65 | Domain: c | loss: 0.2355 | Acc: 94.09%
+2023-11-18 19:55 after_fed Round:  13 | Epochs:  65 | Domain: s | loss: 0.2136 | Acc: 91.21%
+2023-11-18 19:55 Model saved! Best Val Acc: 92.39%
+2023-11-18 19:55 test_domain Round:  13 | Epochs:  65 | Domain: p | loss: 0.1725 | Acc: 94.67%
+2023-11-18 19:55 Round 13 FedAvg weight: {'a': 0.36658974540444306, 'c': 0.3223996412228323, 's': 0.31101061337272456}
+2023-11-18 19:56 before_fed Round:  14 | Epochs:  70 | Domain: a | loss: 0.2459 | Acc: 92.79%
+2023-11-18 19:56 before_fed Round:  14 | Epochs:  70 | Domain: c | loss: 0.2386 | Acc: 93.67%
+2023-11-18 19:56 before_fed Round:  14 | Epochs:  70 | Domain: s | loss: 0.1656 | Acc: 94.97%
+2023-11-18 19:56 after_fed Round:  14 | Epochs:  70 | Domain: a | loss: 0.3055 | Acc: 92.31%
+2023-11-18 19:56 after_fed Round:  14 | Epochs:  70 | Domain: c | loss: 0.2444 | Acc: 93.67%
+2023-11-18 19:56 after_fed Round:  14 | Epochs:  70 | Domain: s | loss: 0.1982 | Acc: 91.71%
+2023-11-18 19:56 Model saved! Best Val Acc: 92.56%
+2023-11-18 19:56 test_domain Round:  14 | Epochs:  70 | Domain: p | loss: 0.1749 | Acc: 94.85%
+2023-11-18 19:56 Round 14 FedAvg weight: {'a': 0.3548924674702099, 'c': 0.3065732506678314, 's': 0.3385342818619588}
+2023-11-18 19:57 before_fed Round:  15 | Epochs:  75 | Domain: a | loss: 0.2227 | Acc: 93.27%
+2023-11-18 19:57 before_fed Round:  15 | Epochs:  75 | Domain: c | loss: 0.1591 | Acc: 97.05%
+2023-11-18 19:57 before_fed Round:  15 | Epochs:  75 | Domain: s | loss: 0.1560 | Acc: 94.47%
+2023-11-18 19:57 after_fed Round:  15 | Epochs:  75 | Domain: a | loss: 0.3334 | Acc: 89.90%
+2023-11-18 19:57 after_fed Round:  15 | Epochs:  75 | Domain: c | loss: 0.2473 | Acc: 92.41%
+2023-11-18 19:57 after_fed Round:  15 | Epochs:  75 | Domain: s | loss: 0.1982 | Acc: 92.46%
+2023-11-18 19:57 test_domain Round:  15 | Epochs:  75 | Domain: p | loss: 0.2144 | Acc: 93.95%
+2023-11-18 19:57 Round 15 FedAvg weight: {'a': 0.35327456205018304, 'c': 0.319981776888309, 's': 0.3267436610615079}
+2023-11-18 19:57 before_fed Round:  16 | Epochs:  80 | Domain: a | loss: 0.2309 | Acc: 94.23%
+2023-11-18 19:58 before_fed Round:  16 | Epochs:  80 | Domain: c | loss: 0.1701 | Acc: 95.36%
+2023-11-18 19:58 before_fed Round:  16 | Epochs:  80 | Domain: s | loss: 0.1370 | Acc: 95.48%
+2023-11-18 19:58 after_fed Round:  16 | Epochs:  80 | Domain: a | loss: 0.3138 | Acc: 89.90%
+2023-11-18 19:58 after_fed Round:  16 | Epochs:  80 | Domain: c | loss: 0.2512 | Acc: 92.83%
+2023-11-18 19:58 after_fed Round:  16 | Epochs:  80 | Domain: s | loss: 0.2151 | Acc: 92.96%
+2023-11-18 19:58 test_domain Round:  16 | Epochs:  80 | Domain: p | loss: 0.1963 | Acc: 94.31%
+2023-11-18 19:58 Round 16 FedAvg weight: {'a': 0.3622514661643054, 'c': 0.315857444412613, 's': 0.32189108942308164}
+2023-11-18 19:58 before_fed Round:  17 | Epochs:  85 | Domain: a | loss: 0.3022 | Acc: 91.35%
+2023-11-18 19:58 before_fed Round:  17 | Epochs:  85 | Domain: c | loss: 0.1932 | Acc: 95.36%
+2023-11-18 19:59 before_fed Round:  17 | Epochs:  85 | Domain: s | loss: 0.1922 | Acc: 94.22%
+2023-11-18 19:59 after_fed Round:  17 | Epochs:  85 | Domain: a | loss: 0.3467 | Acc: 89.90%
+2023-11-18 19:59 after_fed Round:  17 | Epochs:  85 | Domain: c | loss: 0.2828 | Acc: 92.41%
+2023-11-18 19:59 after_fed Round:  17 | Epochs:  85 | Domain: s | loss: 0.1971 | Acc: 92.71%
+2023-11-18 19:59 test_domain Round:  17 | Epochs:  85 | Domain: p | loss: 0.1755 | Acc: 94.73%
+2023-11-18 19:59 Round 17 FedAvg weight: {'a': 0.3535206893237995, 'c': 0.32951309197237166, 's': 0.31696621870382885}
+2023-11-18 19:59 before_fed Round:  18 | Epochs:  90 | Domain: a | loss: 0.3234 | Acc: 93.27%
+2023-11-18 19:59 before_fed Round:  18 | Epochs:  90 | Domain: c | loss: 0.1719 | Acc: 94.94%
+2023-11-18 20:00 before_fed Round:  18 | Epochs:  90 | Domain: s | loss: 0.1539 | Acc: 94.47%
+2023-11-18 20:00 after_fed Round:  18 | Epochs:  90 | Domain: a | loss: 0.3429 | Acc: 89.42%
+2023-11-18 20:00 after_fed Round:  18 | Epochs:  90 | Domain: c | loss: 0.2774 | Acc: 92.41%
+2023-11-18 20:00 after_fed Round:  18 | Epochs:  90 | Domain: s | loss: 0.2066 | Acc: 91.71%
+2023-11-18 20:00 test_domain Round:  18 | Epochs:  90 | Domain: p | loss: 0.1927 | Acc: 94.37%
+2023-11-18 20:00 Round 18 FedAvg weight: {'a': 0.3591328983407988, 'c': 0.3251227496238923, 's': 0.31574435203530893}
+2023-11-18 20:00 before_fed Round:  19 | Epochs:  95 | Domain: a | loss: 0.2695 | Acc: 93.75%
+2023-11-18 20:00 before_fed Round:  19 | Epochs:  95 | Domain: c | loss: 0.1857 | Acc: 94.94%
+2023-11-18 20:00 before_fed Round:  19 | Epochs:  95 | Domain: s | loss: 0.1494 | Acc: 93.97%
+2023-11-18 20:00 after_fed Round:  19 | Epochs:  95 | Domain: a | loss: 0.3198 | Acc: 90.87%
+2023-11-18 20:00 after_fed Round:  19 | Epochs:  95 | Domain: c | loss: 0.2730 | Acc: 91.98%
+2023-11-18 20:00 after_fed Round:  19 | Epochs:  95 | Domain: s | loss: 0.2191 | Acc: 91.96%
+2023-11-18 20:00 test_domain Round:  19 | Epochs:  95 | Domain: p | loss: 0.1918 | Acc: 94.07%
+2023-11-18 20:00 Round 19 FedAvg weight: {'a': 0.3598800634116739, 'c': 0.32966956416638565, 's': 0.3104503724219404}
+2023-11-18 20:01 before_fed Round:  20 | Epochs: 100 | Domain: a | loss: 0.3264 | Acc: 92.79%
+2023-11-18 20:01 before_fed Round:  20 | Epochs: 100 | Domain: c | loss: 0.1715 | Acc: 95.78%
+2023-11-18 20:01 before_fed Round:  20 | Epochs: 100 | Domain: s | loss: 0.1766 | Acc: 95.48%
+2023-11-18 20:01 after_fed Round:  20 | Epochs: 100 | Domain: a | loss: 0.3293 | Acc: 90.38%
+2023-11-18 20:01 after_fed Round:  20 | Epochs: 100 | Domain: c | loss: 0.2723 | Acc: 92.83%
+2023-11-18 20:01 after_fed Round:  20 | Epochs: 100 | Domain: s | loss: 0.2091 | Acc: 92.71%
+2023-11-18 20:01 test_domain Round:  20 | Epochs: 100 | Domain: p | loss: 0.1799 | Acc: 94.79%
+2023-11-18 20:01 Round 20 FedAvg weight: {'a': 0.3542716578857262, 'c': 0.3326558213706388, 's': 0.31307252074363495}
+2023-11-18 20:01 before_fed Round:  21 | Epochs: 105 | Domain: a | loss: 0.2523 | Acc: 93.75%
+2023-11-18 20:02 before_fed Round:  21 | Epochs: 105 | Domain: c | loss: 0.1832 | Acc: 94.51%
+2023-11-18 20:02 before_fed Round:  21 | Epochs: 105 | Domain: s | loss: 0.1779 | Acc: 92.46%
+2023-11-18 20:02 after_fed Round:  21 | Epochs: 105 | Domain: a | loss: 0.3249 | Acc: 88.94%
+2023-11-18 20:02 after_fed Round:  21 | Epochs: 105 | Domain: c | loss: 0.2667 | Acc: 92.83%
+2023-11-18 20:02 after_fed Round:  21 | Epochs: 105 | Domain: s | loss: 0.2042 | Acc: 92.21%
+2023-11-18 20:02 test_domain Round:  21 | Epochs: 105 | Domain: p | loss: 0.2120 | Acc: 93.89%
+2023-11-18 20:02 Round 21 FedAvg weight: {'a': 0.3702841342535583, 'c': 0.32896938148767335, 's': 0.3007464842587684}
+2023-11-18 20:02 before_fed Round:  22 | Epochs: 110 | Domain: a | loss: 0.2593 | Acc: 93.27%
+2023-11-18 20:03 before_fed Round:  22 | Epochs: 110 | Domain: c | loss: 0.1975 | Acc: 95.78%
+2023-11-18 20:03 before_fed Round:  22 | Epochs: 110 | Domain: s | loss: 0.1550 | Acc: 94.22%
+2023-11-18 20:03 after_fed Round:  22 | Epochs: 110 | Domain: a | loss: 0.3251 | Acc: 90.38%
+2023-11-18 20:03 after_fed Round:  22 | Epochs: 110 | Domain: c | loss: 0.2354 | Acc: 95.36%
+2023-11-18 20:03 after_fed Round:  22 | Epochs: 110 | Domain: s | loss: 0.2230 | Acc: 91.46%
+2023-11-18 20:03 test_domain Round:  22 | Epochs: 110 | Domain: p | loss: 0.2020 | Acc: 94.07%
+2023-11-18 20:03 Round 22 FedAvg weight: {'a': 0.37683856805858174, 'c': 0.31275931462460643, 's': 0.3104021173168117}
+2023-11-18 20:03 before_fed Round:  23 | Epochs: 115 | Domain: a | loss: 0.2345 | Acc: 94.23%
+2023-11-18 20:03 before_fed Round:  23 | Epochs: 115 | Domain: c | loss: 0.1902 | Acc: 96.20%
+2023-11-18 20:04 before_fed Round:  23 | Epochs: 115 | Domain: s | loss: 0.1587 | Acc: 94.97%
+2023-11-18 20:04 after_fed Round:  23 | Epochs: 115 | Domain: a | loss: 0.3146 | Acc: 92.31%
+2023-11-18 20:04 after_fed Round:  23 | Epochs: 115 | Domain: c | loss: 0.2563 | Acc: 94.09%
+2023-11-18 20:04 after_fed Round:  23 | Epochs: 115 | Domain: s | loss: 0.2178 | Acc: 92.96%
+2023-11-18 20:04 Model saved! Best Val Acc: 93.07%
+2023-11-18 20:04 test_domain Round:  23 | Epochs: 115 | Domain: p | loss: 0.2113 | Acc: 94.13%
+2023-11-18 20:04 Round 23 FedAvg weight: {'a': 0.37220177050162195, 'c': 0.3156369274870068, 's': 0.31216130201137116}
+2023-11-18 20:04 before_fed Round:  24 | Epochs: 120 | Domain: a | loss: 0.2969 | Acc: 93.27%
+2023-11-18 20:04 before_fed Round:  24 | Epochs: 120 | Domain: c | loss: 0.2050 | Acc: 94.94%
+2023-11-18 20:05 before_fed Round:  24 | Epochs: 120 | Domain: s | loss: 0.1314 | Acc: 96.73%
+2023-11-18 20:05 after_fed Round:  24 | Epochs: 120 | Domain: a | loss: 0.3270 | Acc: 90.87%
+2023-11-18 20:05 after_fed Round:  24 | Epochs: 120 | Domain: c | loss: 0.2806 | Acc: 93.25%
+2023-11-18 20:05 after_fed Round:  24 | Epochs: 120 | Domain: s | loss: 0.1830 | Acc: 92.96%
+2023-11-18 20:05 test_domain Round:  24 | Epochs: 120 | Domain: p | loss: 0.2096 | Acc: 94.31%
+2023-11-18 20:05 Round 24 FedAvg weight: {'a': 0.36849766498752623, 'c': 0.31000593378667496, 's': 0.3214964012257988}
+2023-11-18 20:05 before_fed Round:  25 | Epochs: 125 | Domain: a | loss: 0.2725 | Acc: 93.27%
+2023-11-18 20:05 before_fed Round:  25 | Epochs: 125 | Domain: c | loss: 0.2122 | Acc: 94.51%
+2023-11-18 20:05 before_fed Round:  25 | Epochs: 125 | Domain: s | loss: 0.1828 | Acc: 94.97%
+2023-11-18 20:05 after_fed Round:  25 | Epochs: 125 | Domain: a | loss: 0.3485 | Acc: 90.38%
+2023-11-18 20:05 after_fed Round:  25 | Epochs: 125 | Domain: c | loss: 0.2534 | Acc: 94.09%
+2023-11-18 20:05 after_fed Round:  25 | Epochs: 125 | Domain: s | loss: 0.1714 | Acc: 94.22%
+2023-11-18 20:05 test_domain Round:  25 | Epochs: 125 | Domain: p | loss: 0.1932 | Acc: 94.19%
+2023-11-18 20:05 Round 25 FedAvg weight: {'a': 0.3808682696328314, 'c': 0.3025501857827209, 's': 0.31658154458444765}
+2023-11-18 20:06 before_fed Round:  26 | Epochs: 130 | Domain: a | loss: 0.1909 | Acc: 94.71%
+2023-11-18 20:06 before_fed Round:  26 | Epochs: 130 | Domain: c | loss: 0.2211 | Acc: 94.09%
+2023-11-18 20:06 before_fed Round:  26 | Epochs: 130 | Domain: s | loss: 0.1249 | Acc: 94.97%
+2023-11-18 20:06 after_fed Round:  26 | Epochs: 130 | Domain: a | loss: 0.3246 | Acc: 90.87%
+2023-11-18 20:06 after_fed Round:  26 | Epochs: 130 | Domain: c | loss: 0.2325 | Acc: 96.20%
+2023-11-18 20:06 after_fed Round:  26 | Epochs: 130 | Domain: s | loss: 0.2180 | Acc: 92.71%
+2023-11-18 20:06 test_domain Round:  26 | Epochs: 130 | Domain: p | loss: 0.1859 | Acc: 94.07%
+2023-11-18 20:06 Round 26 FedAvg weight: {'a': 0.39558873329936994, 'c': 0.2815216494825835, 's': 0.32288961721804654}
+2023-11-18 20:06 before_fed Round:  27 | Epochs: 135 | Domain: a | loss: 0.3031 | Acc: 93.75%
+2023-11-18 20:07 before_fed Round:  27 | Epochs: 135 | Domain: c | loss: 0.1943 | Acc: 95.78%
+2023-11-18 20:07 before_fed Round:  27 | Epochs: 135 | Domain: s | loss: 0.1203 | Acc: 96.73%
+2023-11-18 20:07 after_fed Round:  27 | Epochs: 135 | Domain: a | loss: 0.2972 | Acc: 90.87%
+2023-11-18 20:07 after_fed Round:  27 | Epochs: 135 | Domain: c | loss: 0.2762 | Acc: 94.09%
+2023-11-18 20:07 after_fed Round:  27 | Epochs: 135 | Domain: s | loss: 0.2190 | Acc: 92.21%
+2023-11-18 20:07 test_domain Round:  27 | Epochs: 135 | Domain: p | loss: 0.2041 | Acc: 94.01%
+2023-11-18 20:07 Round 27 FedAvg weight: {'a': 0.3920737688148352, 'c': 0.277221097361042, 's': 0.3307051338241227}
+2023-11-18 20:07 before_fed Round:  28 | Epochs: 140 | Domain: a | loss: 0.2840 | Acc: 92.31%
+2023-11-18 20:07 before_fed Round:  28 | Epochs: 140 | Domain: c | loss: 0.1954 | Acc: 95.36%
+2023-11-18 20:08 before_fed Round:  28 | Epochs: 140 | Domain: s | loss: 0.1604 | Acc: 94.47%
+2023-11-18 20:08 after_fed Round:  28 | Epochs: 140 | Domain: a | loss: 0.3306 | Acc: 90.38%
+2023-11-18 20:08 after_fed Round:  28 | Epochs: 140 | Domain: c | loss: 0.2819 | Acc: 93.25%
+2023-11-18 20:08 after_fed Round:  28 | Epochs: 140 | Domain: s | loss: 0.2189 | Acc: 92.21%
+2023-11-18 20:08 test_domain Round:  28 | Epochs: 140 | Domain: p | loss: 0.2222 | Acc: 93.53%
+2023-11-18 20:08 Round 28 FedAvg weight: {'a': 0.3871518487769177, 'c': 0.2805180770119111, 's': 0.3323300742111712}
+2023-11-18 20:08 before_fed Round:  29 | Epochs: 145 | Domain: a | loss: 0.2868 | Acc: 93.27%
+2023-11-18 20:08 before_fed Round:  29 | Epochs: 145 | Domain: c | loss: 0.2359 | Acc: 94.09%
+2023-11-18 20:09 before_fed Round:  29 | Epochs: 145 | Domain: s | loss: 0.1761 | Acc: 94.97%
+2023-11-18 20:09 after_fed Round:  29 | Epochs: 145 | Domain: a | loss: 0.3080 | Acc: 90.87%
+2023-11-18 20:09 after_fed Round:  29 | Epochs: 145 | Domain: c | loss: 0.2902 | Acc: 92.41%
+2023-11-18 20:09 after_fed Round:  29 | Epochs: 145 | Domain: s | loss: 0.1626 | Acc: 93.72%
+2023-11-18 20:09 test_domain Round:  29 | Epochs: 145 | Domain: p | loss: 0.1915 | Acc: 94.43%
+2023-11-18 20:09 Round 29 FedAvg weight: {'a': 0.38980757310123226, 'c': 0.2820122879370515, 's': 0.3281801389617161}
+2023-11-18 20:09 before_fed Round:  30 | Epochs: 150 | Domain: a | loss: 0.2627 | Acc: 93.75%
+2023-11-18 20:09 before_fed Round:  30 | Epochs: 150 | Domain: c | loss: 0.1815 | Acc: 95.78%
+2023-11-18 20:09 before_fed Round:  30 | Epochs: 150 | Domain: s | loss: 0.1435 | Acc: 95.48%
+2023-11-18 20:09 after_fed Round:  30 | Epochs: 150 | Domain: a | loss: 0.3111 | Acc: 90.87%
+2023-11-18 20:09 after_fed Round:  30 | Epochs: 150 | Domain: c | loss: 0.2913 | Acc: 92.83%
+2023-11-18 20:09 after_fed Round:  30 | Epochs: 150 | Domain: s | loss: 0.1748 | Acc: 93.47%
+2023-11-18 20:09 test_domain Round:  30 | Epochs: 150 | Domain: p | loss: 0.2064 | Acc: 93.71%
+2023-11-18 20:09 Round 30 FedAvg weight: {'a': 0.38877360055534804, 'c': 0.28639387978750974, 's': 0.32483251965714227}
+2023-11-18 20:10 before_fed Round:  31 | Epochs: 155 | Domain: a | loss: 0.3113 | Acc: 91.83%
+2023-11-18 20:10 before_fed Round:  31 | Epochs: 155 | Domain: c | loss: 0.2272 | Acc: 94.94%
+2023-11-18 20:10 before_fed Round:  31 | Epochs: 155 | Domain: s | loss: 0.1958 | Acc: 93.72%
+2023-11-18 20:10 after_fed Round:  31 | Epochs: 155 | Domain: a | loss: 0.3343 | Acc: 91.35%
+2023-11-18 20:10 after_fed Round:  31 | Epochs: 155 | Domain: c | loss: 0.2785 | Acc: 93.67%
+2023-11-18 20:10 after_fed Round:  31 | Epochs: 155 | Domain: s | loss: 0.1696 | Acc: 93.22%
+2023-11-18 20:10 test_domain Round:  31 | Epochs: 155 | Domain: p | loss: 0.1996 | Acc: 93.89%
+2023-11-18 20:10 Round 31 FedAvg weight: {'a': 0.38373995672820904, 'c': 0.29434407351001096, 's': 0.32191596976178005}
+2023-11-18 20:11 before_fed Round:  32 | Epochs: 160 | Domain: a | loss: 0.2543 | Acc: 93.75%
+2023-11-18 20:11 before_fed Round:  32 | Epochs: 160 | Domain: c | loss: 0.1930 | Acc: 96.20%
+2023-11-18 20:11 before_fed Round:  32 | Epochs: 160 | Domain: s | loss: 0.1224 | Acc: 95.48%
+2023-11-18 20:11 after_fed Round:  32 | Epochs: 160 | Domain: a | loss: 0.3548 | Acc: 90.38%
+2023-11-18 20:11 after_fed Round:  32 | Epochs: 160 | Domain: c | loss: 0.2680 | Acc: 94.09%
+2023-11-18 20:11 after_fed Round:  32 | Epochs: 160 | Domain: s | loss: 0.1882 | Acc: 92.71%
+2023-11-18 20:11 test_domain Round:  32 | Epochs: 160 | Domain: p | loss: 0.1994 | Acc: 93.95%
+2023-11-18 20:11 Round 32 FedAvg weight: {'a': 0.384616088008699, 'c': 0.2929882176413348, 's': 0.32239569434996607}
+2023-11-18 20:11 before_fed Round:  33 | Epochs: 165 | Domain: a | loss: 0.2861 | Acc: 93.27%
+2023-11-18 20:12 before_fed Round:  33 | Epochs: 165 | Domain: c | loss: 0.2240 | Acc: 94.94%
+2023-11-18 20:12 before_fed Round:  33 | Epochs: 165 | Domain: s | loss: 0.1313 | Acc: 95.73%
+2023-11-18 20:12 after_fed Round:  33 | Epochs: 165 | Domain: a | loss: 0.3598 | Acc: 88.94%
+2023-11-18 20:12 after_fed Round:  33 | Epochs: 165 | Domain: c | loss: 0.2520 | Acc: 94.94%
+2023-11-18 20:12 after_fed Round:  33 | Epochs: 165 | Domain: s | loss: 0.1942 | Acc: 92.46%
+2023-11-18 20:12 test_domain Round:  33 | Epochs: 165 | Domain: p | loss: 0.1974 | Acc: 94.25%
+2023-11-18 20:12 Round 33 FedAvg weight: {'a': 0.3888509036413456, 'c': 0.28628948071312815, 's': 0.3248596156455262}
+2023-11-18 20:12 before_fed Round:  34 | Epochs: 170 | Domain: a | loss: 0.2700 | Acc: 93.27%
+2023-11-18 20:12 before_fed Round:  34 | Epochs: 170 | Domain: c | loss: 0.1982 | Acc: 94.94%
+2023-11-18 20:13 before_fed Round:  34 | Epochs: 170 | Domain: s | loss: 0.1316 | Acc: 94.97%
+2023-11-18 20:13 after_fed Round:  34 | Epochs: 170 | Domain: a | loss: 0.3387 | Acc: 90.38%
+2023-11-18 20:13 after_fed Round:  34 | Epochs: 170 | Domain: c | loss: 0.2449 | Acc: 94.51%
+2023-11-18 20:13 after_fed Round:  34 | Epochs: 170 | Domain: s | loss: 0.1745 | Acc: 93.97%
+2023-11-18 20:13 test_domain Round:  34 | Epochs: 170 | Domain: p | loss: 0.2112 | Acc: 93.95%
+2023-11-18 20:13 Round 34 FedAvg weight: {'a': 0.393653067177054, 'c': 0.283060010592937, 's': 0.323286922230009}
+2023-11-18 20:13 before_fed Round:  35 | Epochs: 175 | Domain: a | loss: 0.3204 | Acc: 92.31%
+2023-11-18 20:13 before_fed Round:  35 | Epochs: 175 | Domain: c | loss: 0.1935 | Acc: 94.94%
+2023-11-18 20:14 before_fed Round:  35 | Epochs: 175 | Domain: s | loss: 0.1628 | Acc: 94.47%
+2023-11-18 20:14 after_fed Round:  35 | Epochs: 175 | Domain: a | loss: 0.3750 | Acc: 89.42%
+2023-11-18 20:14 after_fed Round:  35 | Epochs: 175 | Domain: c | loss: 0.2514 | Acc: 93.25%
+2023-11-18 20:14 after_fed Round:  35 | Epochs: 175 | Domain: s | loss: 0.1774 | Acc: 93.22%
+2023-11-18 20:14 test_domain Round:  35 | Epochs: 175 | Domain: p | loss: 0.2403 | Acc: 93.77%
+2023-11-18 20:14 Round 35 FedAvg weight: {'a': 0.3956583847223455, 'c': 0.2831888052622858, 's': 0.3211528100153687}
+2023-11-18 20:14 before_fed Round:  36 | Epochs: 180 | Domain: a | loss: 0.2462 | Acc: 92.79%
+2023-11-18 20:14 before_fed Round:  36 | Epochs: 180 | Domain: c | loss: 0.2234 | Acc: 94.51%
+2023-11-18 20:14 before_fed Round:  36 | Epochs: 180 | Domain: s | loss: 0.1431 | Acc: 95.48%
+2023-11-18 20:14 after_fed Round:  36 | Epochs: 180 | Domain: a | loss: 0.3339 | Acc: 89.90%
+2023-11-18 20:14 after_fed Round:  36 | Epochs: 180 | Domain: c | loss: 0.2758 | Acc: 93.25%
+2023-11-18 20:14 after_fed Round:  36 | Epochs: 180 | Domain: s | loss: 0.1603 | Acc: 93.72%
+2023-11-18 20:14 test_domain Round:  36 | Epochs: 180 | Domain: p | loss: 0.1800 | Acc: 95.03%
+2023-11-18 20:14 Round 36 FedAvg weight: {'a': 0.39721088532561943, 'c': 0.28203104226508435, 's': 0.32075807240929616}
+2023-11-18 20:15 before_fed Round:  37 | Epochs: 185 | Domain: a | loss: 0.2911 | Acc: 92.31%
+2023-11-18 20:15 before_fed Round:  37 | Epochs: 185 | Domain: c | loss: 0.2330 | Acc: 94.09%
+2023-11-18 20:15 before_fed Round:  37 | Epochs: 185 | Domain: s | loss: 0.1416 | Acc: 94.97%
+2023-11-18 20:15 after_fed Round:  37 | Epochs: 185 | Domain: a | loss: 0.3700 | Acc: 89.90%
+2023-11-18 20:15 after_fed Round:  37 | Epochs: 185 | Domain: c | loss: 0.2753 | Acc: 92.41%
+2023-11-18 20:15 after_fed Round:  37 | Epochs: 185 | Domain: s | loss: 0.1886 | Acc: 92.71%
+2023-11-18 20:15 test_domain Round:  37 | Epochs: 185 | Domain: p | loss: 0.1979 | Acc: 94.61%
+2023-11-18 20:15 Round 37 FedAvg weight: {'a': 0.39688493365647987, 'c': 0.2817477294642847, 's': 0.3213673368792354}
+2023-11-18 20:15 before_fed Round:  38 | Epochs: 190 | Domain: a | loss: 0.3096 | Acc: 92.79%
+2023-11-18 20:16 before_fed Round:  38 | Epochs: 190 | Domain: c | loss: 0.2199 | Acc: 95.36%
+2023-11-18 20:16 before_fed Round:  38 | Epochs: 190 | Domain: s | loss: 0.1692 | Acc: 95.48%
+2023-11-18 20:16 after_fed Round:  38 | Epochs: 190 | Domain: a | loss: 0.3654 | Acc: 90.38%
+2023-11-18 20:16 after_fed Round:  38 | Epochs: 190 | Domain: c | loss: 0.2941 | Acc: 92.83%
+2023-11-18 20:16 after_fed Round:  38 | Epochs: 190 | Domain: s | loss: 0.1897 | Acc: 92.96%
+2023-11-18 20:16 test_domain Round:  38 | Epochs: 190 | Domain: p | loss: 0.1904 | Acc: 94.85%
+2023-11-18 20:16 Round 38 FedAvg weight: {'a': 0.39581019832169, 'c': 0.2825908442255735, 's': 0.32159895745273653}
+2023-11-18 20:16 before_fed Round:  39 | Epochs: 195 | Domain: a | loss: 0.2502 | Acc: 94.71%
+2023-11-18 20:17 before_fed Round:  39 | Epochs: 195 | Domain: c | loss: 0.1707 | Acc: 95.36%
+2023-11-18 20:17 before_fed Round:  39 | Epochs: 195 | Domain: s | loss: 0.1351 | Acc: 95.48%
+2023-11-18 20:17 after_fed Round:  39 | Epochs: 195 | Domain: a | loss: 0.3417 | Acc: 91.83%
+2023-11-18 20:17 after_fed Round:  39 | Epochs: 195 | Domain: c | loss: 0.2412 | Acc: 94.94%
+2023-11-18 20:17 after_fed Round:  39 | Epochs: 195 | Domain: s | loss: 0.1766 | Acc: 93.47%
+2023-11-18 20:17 Model saved! Best Val Acc: 93.23%
+2023-11-18 20:17 test_domain Round:  39 | Epochs: 195 | Domain: p | loss: 0.1924 | Acc: 94.73%
+2023-11-18 20:17 Round 39 FedAvg weight: {'a': 0.39670631316154037, 'c': 0.28134990946877175, 's': 0.32194377736968804}
+2023-11-18 20:17 before_fed Round:  40 | Epochs: 200 | Domain: a | loss: 0.2561 | Acc: 93.75%
+2023-11-18 20:17 before_fed Round:  40 | Epochs: 200 | Domain: c | loss: 0.1748 | Acc: 95.78%
+2023-11-18 20:18 before_fed Round:  40 | Epochs: 200 | Domain: s | loss: 0.1343 | Acc: 94.97%
+2023-11-18 20:18 after_fed Round:  40 | Epochs: 200 | Domain: a | loss: 0.3500 | Acc: 90.38%
+2023-11-18 20:18 after_fed Round:  40 | Epochs: 200 | Domain: c | loss: 0.2443 | Acc: 94.94%
+2023-11-18 20:18 after_fed Round:  40 | Epochs: 200 | Domain: s | loss: 0.1781 | Acc: 93.72%
+2023-11-18 20:18 test_domain Round:  40 | Epochs: 200 | Domain: p | loss: 0.2052 | Acc: 94.43%
+2023-11-18 20:18 Round 40 FedAvg weight: {'a': 0.3972975955463591, 'c': 0.2810072163258351, 's': 0.32169518812780573}
