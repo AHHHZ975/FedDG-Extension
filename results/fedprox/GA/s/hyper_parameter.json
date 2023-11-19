@@ -1,0 +1,16 @@
+{
+    "batch_size": 16,
+    "comm": 40,
+    "dataset": "pacs",
+    "display": false,
+    "fair": "acc",
+    "local_epochs": 5,
+    "lr": 0.001,
+    "lr_policy": "step",
+    "model": "resnet18",
+    "mu": 0.1,
+    "note": "debug",
+    "num_classes": 7,
+    "step_size": 0.2,
+    "test_domain": "s"
+}
